@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Stylish SPA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My SPA</h1>
+    <p>Explore different sections with smooth transitions</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#" data-view="home" class="active">Home</a></li>
+      <li><a href="#" data-view="about">About</a></li>
+      <li><a href="#" data-view="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home" class="view active">
+      <h2>Home</h2>
+      <p>This is the home section of your SPA. It's clean, fast, and stylish.</p>
+      <button class="btn" data-view="about">Learn More</button>
+    </section>
+
+    <section id="about" class="view">
+      <h2>About</h2>
+      <p>This section tells visitors about you, your work, or your project.</p>
+      <button class="btn" data-view="contact">Contact Me</button>
+    </section>
+
+    <section id="contact" class="view">
+      <h2>Contact</h2>
+      <p>Here you can add your contact details, social links, or a form.</p>
+      <button class="btn" data-view="home">Back to Home</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My SPA. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
