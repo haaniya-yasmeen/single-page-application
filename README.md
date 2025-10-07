@@ -32,3 +32,31 @@ Follow these steps to set up and run the SPA locally:
  Clone the Repository
 git clone https://github.com/yourusername/single-page-application.git
 cd single-page-application
+
+PROJECT REPORT:
+Objective:
+To design and implement a Task Management SPA that allows users to create, view, edit, and delete tasks in a simple, responsive, and user-friendly environment. The system reduces manual effort in managing tasks, ensures better organization, and encourages productivity through task categorization, priority settings, and status tracking.
+System Overview:
+The Task Management SPA functions as a dynamic platform where users can manage daily tasks efficiently. we can add new tasks, view task details, update progress, mark tasks as completed, and delete unnecessary tasks. The application ensures smooth navigation, instant updates using frontend state, persistent storage through the browser, and provides a modular design for easy scalability into a full-stack application with backend support.
+System Architecture:
+[Client Browser] → [React Frontend] → [Local Storage / Future Database] ↓
+[Task Module + Status Handling]
+↓
+[Rendered Task Pages with User Interaction]
+Modules Description:
+1.	Authentication Module (Future Scope): Provides secure user login and registration for personal task management.
+2.	Task Module: Enables users to create, edit, view, and delete tasks with title, description, due date, priority, and category.
+3.	Status Module: Allows users to mark tasks as completed or pending, tracking progress effectively.
+4.	Filter & Search Module: Enables filtering tasks by category, priority, or status, and searching tasks by title for quick access.
+5.	Data Handling Module: Manages storage and retrieval of tasks and their statuses using React state and local Storage (future upgrade: MongoDB/REST API).
+Advantages:
+•	Simple, user-friendly interface for creating and managing tasks
+•	Persistent task and status data using local Storage
+•	Lightweight frontend-only design with easy extension to backend
+•	Interactive features that enhance productivity and task organization
+•	Scalable structure for supporting multiple users and categories
+Real-World Use Cases:
+•	Personal task management or daily planner app
+•	Educational project and assignment tracker
+•	Internal team or office task management system
+•	Community or group task tracking platform
